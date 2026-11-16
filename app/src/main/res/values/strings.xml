@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JarvisRider</string>
+    <string name="assist_label">JarvisRider voice assistant</string>
+    <string name="assist_listening">Listening…</string>
+    <string name="channel_incoming">Incoming call announcer</string>
+    <string name="notif_incoming_title">Announcing incoming call</string>
+    <string name="notif_incoming_text">JarvisRider is reading out the caller. Stops when the call is answered or ends.</string>
+
+    <string name="main_intro">Hands-free calling for riders. Long-press the power button (or press your Bluetooth headset button) and say \"call Rahul\", \"Rahul ko call karo\", \"redial\" or \"call mom on speaker\". Incoming calls are announced and you can say \"answer\" or \"reject\".</string>
+    <string name="main_status">Status</string>
+    <string name="main_setup">Setup (do these once)</string>
+    <string name="main_use">Use</string>
+    <string name="main_why_perms">Why each permission is needed</string>
+    <string name="btn_grant">1. Grant permissions</string>
+    <string name="btn_default_assistant">2. Set as default digital assistant</string>
+    <string name="btn_battery">3. Disable battery optimization</string>
+    <string name="btn_try">Try the assistant now</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_test">Test screen</string>
+    <string name="btn_help">Help &amp; troubleshooting</string>
+    <string name="btn_autostart">Open autostart / background settings</string>
+    <string name="btn_app_info">Open App info</string>
+    <string name="status_assistant">Default digital assistant</string>
+    <string name="status_battery">Battery optimization disabled</string>
+    <string name="status_engine">Speech recognition engine found</string>
+    <string name="status_headset_yes">Bluetooth headset connected</string>
+    <string name="status_headset_no">No Bluetooth headset connected right now</string>
+    <string name="toast_pick_assistant">Tap \"Digital assistant app\" (or \"Default assist app\") and choose JarvisRider.</string>
+    <string name="toast_no_settings">Could not open that settings screen on this phone. Please open it manually (see Help).</string>
+    <string name="toast_all_granted">All permissions are granted.</string>
+    <string name="dialog_perm_title">JarvisRider needs these permissions</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_cancel">Not now</string>
+    <string name="dialog_perm_blocked_title">Some permissions are blocked</string>
+    <string name="dialog_perm_blocked_msg">Android will not ask again for some permissions. Open App info → Permissions and allow them manually.</string>
+    <string name="dialog_open_settings">Open App info</string>
+
+    <string name="set_language">Speech language</string>
+    <string name="lang_auto">Auto: English (India) first, Hindi as fallback</string>
+    <string name="lang_en">English (India) only</string>
+    <string name="lang_hi">Hindi / Hinglish (Hindi prompts)</string>
+    <string name="set_audio">Audio</string>
+    <string name="set_sco">Use the Bluetooth headset microphone (SCO)</string>
+    <string name="set_offline">Prefer offline speech recognition (needs the offline language pack)</string>
+    <string name="set_incoming">Incoming calls</string>
+    <string name="set_announce">Announce the caller</string>
+    <string name="set_listen">Listen for \"answer\" / \"reject\"</string>
+    <string name="set_mute_ringer">Mute the ringtone while announcing</string>
+    <string name="set_incoming_note">Voice answer/reject needs Android to allow the microphone in the background. It works best when JarvisRider is the default assistant and battery optimization is disabled. If Android blocks it, the caller is still announced and you answer from the headset button.</string>
+    <string name="set_wake">Wake word</string>
+    <string name="set_wake_note">Not included in this version. An always-listening wake word needs a permanent microphone service, which drains the battery. The free offline engines (Vosk, openWakeWord) would also make the app about 20 times bigger and could not be tested for reliability on real phones yet. Use the power button or the headset button instead.</string>
+
+    <string name="help_launch_title">How to start JarvisRider</string>
+    <string name="help_launch">1. Set JarvisRider as the default digital assistant (Settings → Apps → Default apps → Digital assistant app).\n2. Power button: on Pixel and Android 12+ phones turn on Settings → System → Gestures → \"Press and hold power button\" → Digital assistant. On Samsung the side key can only open Bixby or the power-off menu, so use a long-press of the home button (or swipe up from a bottom corner with gesture navigation) or the headset button.\n3. Bluetooth headset: a long-press of the headset\'s call/multi-function button usually triggers voice dial / assistant. If your headset opens another app, set JarvisRider as default for \"Voice command\" when Android asks.</string>
+    <string name="help_battery_title">Battery optimization</string>
+    <string name="help_battery">Disable battery optimization for JarvisRider so Android lets it react to incoming calls. JarvisRider runs nothing in the background while idle, so this costs almost no battery.</string>
+    <string name="help_oem_title">Xiaomi, Oppo, Vivo, Realme, Samsung</string>
+    <string name="help_oem">• Xiaomi / Redmi / POCO: Security app → Permissions → Autostart → enable JarvisRider. Also App info → Battery saver → No restrictions.\n• Oppo / Realme / OnePlus (ColorOS): Settings → Battery → App battery management → JarvisRider → allow background activity and auto launch.\n• Vivo / iQOO: i Manager → App manager → Autostart manager → enable JarvisRider; Battery → Background power consumption → allow.\n• Samsung: Settings → Battery → Background usage limits → Never sleeping apps → add JarvisRider. Remove it from \"Sleeping apps\".\nAlso lock JarvisRider in the recent-apps screen if your phone supports it.</string>
+    <string name="help_voice_title">Voice commands</string>
+    <string name="help_voice">• \"Call Rahul\" / \"Rahul ko call karo\" / \"राहुल को फ़ोन लगाओ\"\n• \"Call mom on speaker\" / \"speaker pe papa ko call karo\"\n• \"Redial\" / \"dobara call karo\"\n• \"Call back\" (last call in your log)\n• \"Call 98765 43210\"\n• When several contacts match: say \"first\", \"second\", \"doosra\" or the full name.\n• \"Cancel\" / \"rehne do\" stops.\n• Incoming: \"answer\", \"pick up\", \"haan\", \"utha lo\" / \"reject\", \"cut\", \"kaat do\", \"nahi\".</string>
+    <string name="help_trouble_title">Troubleshooting</string>
+    <string name="help_trouble">• \"Speech recognition is not available\": install or update the Google app, or download the offline English (India) and Hindi packs (Google app → Settings → Voice → Offline speech recognition).\n• Prompts play from the phone instead of the helmet: enable \"Use the Bluetooth headset microphone\" in Settings and make sure the headset is connected for calls (not only media).\n• Assistant not listed: reinstall, then check Settings → Apps → Default apps → Digital assistant app.\n• Incoming calls not announced: grant Phone and Call log permissions, disable battery optimization and allow autostart (see above).</string>
+
+    <string name="test_title">Tests</string>
+    <string name="test_tts">Test TTS (speak a sentence)</string>
+    <string name="test_voice">Test voice recognition + command parsing</string>
+    <string name="test_name_hint">Type a name to match, e.g. rahool</string>
+    <string name="test_match">Test contact match</string>
+    <string name="test_incoming">Test incoming-call announcement</string>
+    <string name="test_incoming_running">Speaking a sample incoming-call announcement…</string>
+    <string name="test_full">Run the full assistant</string>
+    <string name="test_output_idle">Results appear here.</string>
+    <string name="test_tts_running">Speaking…</string>
+    <string name="test_tts_ok">TTS works.</string>
+    <string name="test_tts_failed">TTS failed. Install or enable a text-to-speech engine (Settings → Accessibility → Text-to-speech).</string>
+    <string name="test_need_mic">Microphone permission is missing.</string>
+    <string name="test_need_contacts">Contacts permission is missing.</string>
+    <string name="test_voice_running">Speak now…</string>
+    <string name="test_voice_error">Recognition error code %1$d (6/7 = nothing heard, 2/4 = network/engine, 9 = permission).</string>
+</resources>

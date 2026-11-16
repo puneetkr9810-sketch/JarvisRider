@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Treat the important security / component checks as errors. -->
+    <issue id="ExportedReceiver" severity="error" />
+    <issue id="ExportedContentProvider" severity="error" />
+    <issue id="UnprotectedSMSBroadcastReceiver" severity="error" />
+    <issue id="MissingPermission" severity="error" />
+    <issue id="ForegroundServiceType" severity="error" />
+    <issue id="ForegroundServicePermission" severity="error" />
+    <!-- Target 34 is intentional (see README); newer platform targets are a future upgrade. -->
+    <issue id="OldTargetApi" severity="informational" />
+    <issue id="GradleDependency" severity="informational" />
+    <issue id="AndroidGradlePluginVersion" severity="informational" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+</lint>

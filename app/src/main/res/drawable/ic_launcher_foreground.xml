@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- helmet -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M54,30c-14.4,0 -26,11.6 -26,26v8c0,2.2 1.8,4 4,4h16v-10h-10c-1.1,0 -2,-0.9 -2,-2s0.9,-2 2,-2h40c-0.6,-13.8 -11.6,-24 -24,-24z" />
+    <!-- visor -->
+    <path android:fillColor="#FFFF6D00"
+        android:pathData="M50,58h30v6c0,2.2 -1.8,4 -4,4h-26z" />
+    <!-- sound waves -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="3"
+        android:strokeLineCap="round" android:pathData="M84,44c3,3 3,9 0,12" />
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="3"
+        android:strokeLineCap="round" android:pathData="M89,39c6,6 6,16 0,22" />
+</vector>
